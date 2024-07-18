@@ -1,0 +1,186 @@
+@media (max-width: 769px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .iframe {
+        width: 647px;
+        height: 250px;
+    }
+.news {
+    max-width: 100%;
+    margin-left: initial;
+    width: 100%;
+    height: 50%;
+}
+
+    #mypic {
+        margin-left: initial;
+        width: 100%;
+        height: 80%;
+    }
+    .btn1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #btn2 {
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    body {
+        display: none;
+        background-color: whitesmoke;
+        font-family: Verdana, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', osaka, sans-serif;
+    }
+    .iframe {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+    .news {
+        position: relative;
+        height: auto;
+        margin-right: 15%;
+        margin-top: 2%;
+    }
+    .pc {
+        display: block;
+    }
+    body {
+        margin: 20px 30px 0px 30px;
+        display: none;
+        background-color: whitesmoke;
+        font-family: Verdana, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', osaka, sans-serif;
+    }
+
+    p {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    h2,h3 {
+        text-align: center;
+    }
+    #btn3 {
+        margin-left: 15%;
+        width: 70%;
+        margin-top: 300px;
+    }
+    #btn4 {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    #introduce {
+        margin-top: 20px;
+    }
+    .iframe1, .iframe2 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .content_index2 {
+        text-align: center;
+    }
+    h2, h3{
+        text-align: center;
+    }
+    .iframe {
+        width: 647px;
+        height: 300px;
+    }
+.news {
+    margin-left: initial;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: auto;
+}
+
+    #mypic {
+        margin-left: initial;
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: auto;
+    }
+    .btn1 {
+        display: flex;
+    }
+
+    #btn2 {
+        width: 100%;
+        margin-top: 1px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    body {
+        display: none;
+        background-color: whitesmoke;
+        font-family: Verdana, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', osaka, sans-serif;
+    }
+    .iframe {
+        position: absolute;
+        top: 10px;
+        width: 100%;
+    }
+    #introduce {
+        margin-top: 20px;
+    }
+    .news {
+        position: relative;
+        height: auto;
+        margin-right: 15%;
+        margin-top: 2%;
+    }
+    .pc {
+        display: block;
+    }
+    body {
+        margin: 20px 30px 0px 30px;
+        display: none;
+        background-color: whitesmoke;
+        font-family: Verdana, 'ＭＳ Ｐゴシック', 'MS PGothic', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', osaka, sans-serif;
+    }
+
+    p {
+        font-weight: bold;
+        text-align: center;
+    }
+#btn3 {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 320px;
+}
+.iframe1, .iframe2 {
+    text-align: center;
+}
+#btn4 {
+    margin-left: 24%;
+    width: 50%;
+}
+}

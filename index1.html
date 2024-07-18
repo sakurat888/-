@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <title>大分豊府高校放送部のHP</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>HBC 大分豊府高校放送部</h1>
+    <div class="btn1">
+      <button type="button" class="btn btn-success" onclick="location.href='./index1.html'" id="btn2">
+        ホーム
+      </button>
+      <button type="button" class="btn btn-success" onclick="location.href='./index2.html'" id="btn2">
+        過去作品
+      </button>
+      <button type="button" class="btn btn-success" onclick="location.href='https://www.instagram.com/m.hbc.official/'"
+        id="btn2">
+        HBCのインスタグラム
+      </button>
+      <button type="button" class="btn btn-success" onclick="location.href='./index4.html'" id="btn2">
+        HBCの出し物
+      </button>
+    </div>
+  </header>
+  <main>
+    <div class="main">
+      <div class="content">
+        <div class="main">
+          <div>
+            <img id="mypic" src="DSC00130.JPG" class="img" />
+          </div>
+        </div>
+        <div class="news">
+          <iframe src="whatsnew.html" class="iframe">
+          </iframe>
+        </div>
+      </div>
+    </div><br class="pc">
+    <button type="button" class="btn btn-danger" onclick="location.href='./form.html'"
+      id="btn3">リクエスト・お問い合わせはこちらをクリックしてください</button>
+    <p id="introduce">
+      大分豊府高校放送部ホームページへようこそ!<br />
+      放送部の日々の活動や大会の結果などを報告していきます。
+    </p>
+    <div class="font">
+      <h2 id="action">活動内容</h2>
+      <p id="font2">
+        行事の司会、お昼の校内放送、帰りの校内放送、学校紹介ビデオの作成、音響、<br class="pc" />番組制作、発声練習、ホームページの作成・運営などを活動しています。
+      </p>
+    </div>
+    <div class="mix">
+      <div class="box1">
+        <h2>番組名</h2>
+      </div>
+    </div>
+  </main>
+  <br />
+  <script>
+    const pics_src = [
+      "DSC00130.JPG",
+      "DSC00131.JPG",
+      "DSC00134.JPG",
+    ];
+    let num = -1;
+
+    function slideshow_timer() {
+      if (num === 2) {
+        num = 0;
+      } else {
+        num++;
+      }
+      document.getElementById("mypic").src = pics_src[num];
+    }
+
+    setInterval(slideshow_timer, 1500);
+
+    $(function () {
+      $("body").fadeIn(2000);
+    });
+  </script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
